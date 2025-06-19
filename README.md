@@ -1,16 +1,55 @@
-# clima_version_1
+# 🌦️ Weather App – Flutter
 
-A new Flutter project.
+A simple Flutter application that provides **live weather updates** for cities using real-time weather API data.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🌍 Get current weather by city name  
+- 🌡️ Shows temperature, condition, and weather icon  
+- 📱 Clean, responsive UI for mobile  
+- 🔁 Refresh to get updated weather info
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧑‍💻 Built With
+
+- 🔷 Flutter (Dart)
+- 🌐 Weather API (e.g., OpenWeatherMap)
+- 📱 Android, iOS, Web, Windows, Linux, macOS supported
+
+---
+
+## 📲 How to Run
+
+```bash
+flutter pub get
+flutter run
+```
+
+You can run it on emulator, physical device, or web.
+
+---
+
+## 📁 Project Structure
+
+```
+weather_app/
+├── lib/              # Dart code (UI + logic)
+├── images/           # Weather icons or assets
+├── android/ios/web/  # Platform-specific support
+├── pubspec.yaml      # Dependencies
+└── README.md
+```
+
+---
+
+## 👨‍💻 Developed By
+
+**Vishal V Nair**  
+📫 GitHub: [@vishalvnair124](https://github.com/vishalvnair124)
+
+---
+
+> 🔐 Note: Add your own Weather API key in the code (e.g., `apiKey = "your_key_here"`) before running.
